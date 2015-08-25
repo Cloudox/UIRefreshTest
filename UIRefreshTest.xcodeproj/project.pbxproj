@@ -12,8 +12,9 @@
 		4DDEF64F1B16E73700FF78F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEF64E1B16E73700FF78F8 /* ViewController.m */; };
 		4DDEF6521B16E73700FF78F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEF6501B16E73700FF78F8 /* Main.storyboard */; };
 		4DDEF6541B16E73700FF78F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEF6531B16E73700FF78F8 /* Images.xcassets */; };
-		4DDEF6571B16E73700FF78F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEF6551B16E73700FF78F8 /* LaunchScreen.xib */; };
 		4DDEF6631B16E73700FF78F8 /* UIRefreshTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEF6621B16E73700FF78F8 /* UIRefreshTestTests.m */; };
+		4DDEF66F1B16F04D00FF78F8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEF66D1B16F04D00FF78F8 /* TableViewController.m */; };
+		4DDEF6701B16F04D00FF78F8 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEF66E1B16F04D00FF78F8 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,12 @@
 		4DDEF64E1B16E73700FF78F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DDEF6511B16E73700FF78F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DDEF6531B16E73700FF78F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4DDEF6561B16E73700FF78F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4DDEF65C1B16E73700FF78F8 /* UIRefreshTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRefreshTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDEF6611B16E73700FF78F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DDEF6621B16E73700FF78F8 /* UIRefreshTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIRefreshTestTests.m; sourceTree = "<group>"; };
+		4DDEF66C1B16F04D00FF78F8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4DDEF66D1B16F04D00FF78F8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4DDEF66E1B16F04D00FF78F8 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +89,10 @@
 				4DDEF64D1B16E73700FF78F8 /* ViewController.h */,
 				4DDEF64E1B16E73700FF78F8 /* ViewController.m */,
 				4DDEF6501B16E73700FF78F8 /* Main.storyboard */,
+				4DDEF66C1B16F04D00FF78F8 /* TableViewController.h */,
+				4DDEF66D1B16F04D00FF78F8 /* TableViewController.m */,
+				4DDEF66E1B16F04D00FF78F8 /* TableViewController.xib */,
 				4DDEF6531B16E73700FF78F8 /* Images.xcassets */,
-				4DDEF6551B16E73700FF78F8 /* LaunchScreen.xib */,
 				4DDEF6461B16E73700FF78F8 /* Supporting Files */,
 			);
 			path = UIRefreshTest;
@@ -199,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDEF6701B16F04D00FF78F8 /* TableViewController.xib in Resources */,
 				4DDEF6521B16E73700FF78F8 /* Main.storyboard in Resources */,
-				4DDEF6571B16E73700FF78F8 /* LaunchScreen.xib in Resources */,
 				4DDEF6541B16E73700FF78F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +227,7 @@
 				4DDEF64F1B16E73700FF78F8 /* ViewController.m in Sources */,
 				4DDEF64C1B16E73700FF78F8 /* AppDelegate.m in Sources */,
 				4DDEF6491B16E73700FF78F8 /* main.m in Sources */,
+				4DDEF66F1B16F04D00FF78F8 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +256,6 @@
 				4DDEF6511B16E73700FF78F8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4DDEF6551B16E73700FF78F8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DDEF6561B16E73700FF78F8 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
